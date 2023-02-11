@@ -1,0 +1,76 @@
+body {
+   background-color: aliceblue;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    margin: auto;
+    width: auto;
+    padding: 10px;
+    background-color:white;
+    box-shadow: 1px 1px 1px 1px rgba(109, 108, 108, 0.7);
+    border-radius:  10px 10px 0px 0px;
+  }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+    
+    form {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    
+    input[type="text"] {
+      padding: 10px;
+      font-size: 16px;
+      width: 70%;
+      border-radius: 5px 0 0 5px;
+      border: 1px solid gray;
+    }
+    
+    button {
+      padding: 10px;
+      font-size: 16px;
+      background-color: lightblue;
+      color: white;
+      border: 1px solid gray;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+    }
+    
+    #task-list {
+      list-style: none;
+      margin: 50px 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #task-list li {
+      margin: 10px 0;
+      padding: 10px;
+      width: 60%;
+      background-color: lightgray;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    #task-list li span {
+      cursor: pointer;
+    }
+    
+    #task-list li span.completed {
+      text-decoration: line-through;
+    }
+    
+    button[id="delete-all"] {
+      background-color: tomato;
+      margin-top: 10px;
+    }
+    
+    
+    
